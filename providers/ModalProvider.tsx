@@ -1,5 +1,6 @@
 "use client";
 
+import AuthModal from "@/components/AuthModal";
 import Modal from "@/components/Modal";
 
 import { useState, useEffect } from "react";
@@ -18,9 +19,7 @@ const ModalProvier = () => {
 
     return (
         <>
-            <Modal title="Test Modal" description="Test Description" isOpen onChange={() => {}}>
-                Test Children
-            </Modal>
+            <AuthModal/>
         </>
     )
 };
