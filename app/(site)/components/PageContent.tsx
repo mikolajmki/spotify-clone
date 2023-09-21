@@ -1,7 +1,7 @@
 "use client";
 
 import { Song } from "@/types";
-import SongItem from "./SongItem";
+import SongItem from "../../../components/SongItem";
 
 import React from "react";
 
