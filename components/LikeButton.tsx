@@ -75,6 +75,8 @@ const LikedButton: React.FC<LikedButtonProps> = ({ songId }) => {
                 toast.success("Liked!");
             }
         }
+
+        router.refresh();
     }
 
     const Icon = isLiked ? AiFillHeart : AiOutlineHeart;

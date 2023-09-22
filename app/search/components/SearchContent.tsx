@@ -1,7 +1,7 @@
 "use client";
 
 import MediaItem from "@/components/MediaItem";
-import LikedButton from "@/components/LikedButton";
+import LikedButton from "@/components/LikeButton";
 import { Song } from "@/types";
 
 import React from "react";
