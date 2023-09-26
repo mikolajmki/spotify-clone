@@ -14,7 +14,7 @@ interface LikedButtonProps {
     songId: string
 };
 
-const LikedButton: React.FC<LikedButtonProps> = ({ songId }) => {
+const LikeButton: React.FC<LikedButtonProps> = ({ songId }) => {
     
     const [isLiked, setIsLiked] = useState(false);
 
@@ -91,4 +91,4 @@ const LikedButton: React.FC<LikedButtonProps> = ({ songId }) => {
     )
 };
 
-export default LikedButton;
+export default LikeButton;
