@@ -30,6 +30,7 @@ const Slider: React.FC<SliderProps> = ({ value = 1, onChange }) => {
                 grow
                 rounded-full
                 h-[3px]
+                cursor-pointer
             ">
                 <RadixSlider.Range className="
                     absolute
